@@ -1,0 +1,7 @@
+{
+  "name": "NativeLab",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
