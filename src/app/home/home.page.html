@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Native
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,8 +13,11 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <div>
+    <h3>Welcome to Mobile Apps Starter project 2023.</h3>
+    <ion-button (click)="getGPS()">Get GPS</ion-button>
+    {{lat}}, {{long}}
+    <br>
+    <ion-button (click)="openBrowser()">Open in Browser</ion-button>
+    </div>
 </ion-content>
